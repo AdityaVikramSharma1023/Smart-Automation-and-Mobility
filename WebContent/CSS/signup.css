@@ -1,0 +1,130 @@
+body {
+	background-image:url('https://electricvehicles.in/wp-content/uploads/2018/08/wallpaper-Hyundai-electric-car.jpg');
+	color:white;
+	text-align:center;
+}
+
+.sign::before {
+	content: "";
+   background-image: linear-gradient(to bottom right,#00b5ff,aqua);
+    position: absolute;
+    width: 469px;
+    height: 457px;
+    top: 60px;
+    left: 279px;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius:30px;
+}
+
+.sign {
+	height: 460px;
+	width: 500px;
+	margin-top:74px;
+	margin-left:253px;
+}
+
+h1 {
+	font-size: 29px;
+	color: white; text-align : center;
+	font-family: 'Georgia', serif;
+	margin: 14px;
+	text-align: center;
+	animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0%{
+        color: white;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: white;
+    }
+}
+
+input {
+	background-image: linear-gradient(#ffccff,#ccccff);
+	height: 32px;
+	width: 333px;
+	margin: 10px;
+	border-radius: 5px;
+	border-width: thin;
+	border-color: black;
+	font-size: 18px;
+	font-family: 'Georgia', serif;
+}
+
+#btn {
+	cursor: pointer;
+	font-size: 24px;
+	background: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+input::placeholder {
+	color: black;
+}
+
+form {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Georgia', serif;
+	font-size: 100%;
+}
+
+a {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+a:link, a:visited {
+	background-color: #cc0000;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+a:hover, a:active {
+	background-color: #ff0000;
+}
+
+.rightside{
+	    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 11px;
+}
+
+.rightside::before {
+	    content: "";
+    background-image: linear-gradient(#151558, aqua);
+    display: inline-block;
+    position: absolute;
+    width: 249px;
+    height: 627px;
+    top: -71px;
+    right: -29px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.a1{
+	border-radius:10%;
+	margin:10px;
+}
+h3{
+	display:inline-block;
+	position:absolute;
+	top:50px;
+	left:10px;
+	font-size:28px;
+}

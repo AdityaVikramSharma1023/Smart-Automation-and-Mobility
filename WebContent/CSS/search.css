@@ -1,0 +1,143 @@
+
+#search::before {
+    content: "";
+    background-image: linear-gradient(to bottom right,#122559,aqua);
+    position: absolute;
+    width: 417px;
+    height: 333px;
+    top: -32px;
+    left: 5px;
+    z-index: -1;
+    opacity: 0.8;
+    border-radius: 26px;
+}
+
+#search {
+	position: absolute;
+    top: 185px;
+    left: 283px;
+    display: inline-block;
+    height: 306px;
+    width: 417px;
+}
+.s input {
+	background-image: linear-gradient(#ffccff,#ccccff);
+    height: 32px;
+    width: 275px;
+    margin-top: 29px;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: black;
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+}
+
+.s input::placeholder{
+	color:black;
+}
+
+h1 {
+	position: absolute;
+	top: 200px;
+	left: 5px;
+}
+body {
+	background-image:url('https://electricvehicles.in/wp-content/uploads/2018/08/wallpaper-Hyundai-electric-car.jpg');
+	color:white;
+	text-align:center;
+}
+
+#logo {
+	    position: absolute;
+    top: 9px;
+    left: 2px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;  
+}
+
+#logo img{
+	height:100px;
+	width:100px;
+}
+
+#home {
+	background-color: white;
+    display: inline-block;
+    width: 61px;
+    height: 49px;
+    position: absolute;
+    top: 31px;
+    left: 94px;
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid white;
+}
+
+.menubar {
+	display: inline-block;
+    height: 33px;
+    width: 1121px;
+    padding: 9px;
+    margin-left: -265px;
+    margin-top: 24px;
+}
+
+.menu input {
+    background-image: linear-gradient(to bottom right,skyblue,aqua);
+    height: 55px;
+    margin: -11px -8px 0px 4px;
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    border: 1px solid black;
+    padding: 2px 58px 0px 40px;
+}
+
+.menu input:hover{
+	background-image:linear-gradient(to bottom right,darkblue,black);
+	color:white;
+}
+
+#x{
+	border-radius:0px 50px 50px 0px;
+}
+#btn {
+	cursor: pointer;
+	font-size: 24px;
+	background: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+.s select{
+	background-image: linear-gradient(to bottom right,skyblue,aqua);
+	width: 100px;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    height: 29px;
+    border-radius: 5px;
+}
+.rightside{
+	    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 11px;
+}
+
+.rightside::before {
+	    content: "";
+    background-image: linear-gradient(#151558, aqua);
+    display: inline-block;
+    position: absolute;
+    width: 249px;
+    height: 627px;
+    top: -71px;
+    right: -29px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.a1{
+	border-radius:10%;
+	margin:10px;
+}
+

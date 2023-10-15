@@ -1,0 +1,126 @@
+
+#cancel {
+	    display: inline-block;
+    position: absolute;
+    top: 169px;
+    left: 280px;
+    height: 100px;
+    width: 500px;
+    border-radius: 24px;
+    padding: 20px;
+    background-image: linear-gradient(to top left, #8000ff,#00ffff);
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    border:1px solid darkblue;
+}
+body {
+	background-image:url('https://electricvehicles.in/wp-content/uploads/2018/08/wallpaper-Hyundai-electric-car.jpg');
+	color:white;
+	text-align:center;
+}
+
+
+#logo {
+	    position: absolute;
+    top: 9px;
+    left: 2px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;  
+}
+
+#logo img{
+	height:100px;
+	width:100px;
+}
+
+#home {
+	background-color: white;
+    display: inline-block;
+    width: 61px;
+    height: 49px;
+    position: absolute;
+    top: 31px;
+    left: 94px;
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid white;
+}
+
+.menubar {
+	display: inline-block;
+    height: 33px;
+    width: 1121px;
+    padding: 9px;
+    margin-left: -265px;
+    margin-top: 24px;
+}
+
+.menu input {
+    background-image: linear-gradient(to bottom right,skyblue,aqua);
+    height: 55px;
+    margin: -11px -8px 0px 4px;
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    border: 1px solid black;
+    padding: 2px 58px 0px 40px;
+}
+
+.menu input:hover{
+	background-image:linear-gradient(to bottom right,darkblue,black);
+	color:white;
+}
+
+#x{
+	border-radius:0px 50px 50px 0px;
+}
+.can input {
+	float: center;
+	background-image: linear-gradient(to bottom right, #cc99ff,#b3ecff);
+	height: 30px;
+	margin-top: 30px;
+	margin-right:10px;
+	margin-left:10px;
+	border-radius: 5px;
+	border-width: thin;
+	border-color:black;
+	font-size: 15px;
+	font-family: 'Georgia', serif;
+}
+
+form {
+	color: #000000;
+	text-align: center;
+	font-family: 'Georgia', serif;
+	font-size: 120%;
+}
+.rightside{
+	    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 11px;
+}
+
+.rightside::before {
+	    content: "";
+    background-image: linear-gradient(#151558, aqua);
+    display: inline-block;
+    position: absolute;
+    width: 249px;
+    height: 627px;
+    top: -71px;
+    right: -29px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.a1{
+	border-radius:10%;
+	margin:10px;
+}
+
+h1{
+    position: absolute;
+    top: 307px;
+    left: 400px;
+}

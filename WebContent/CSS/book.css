@@ -1,0 +1,128 @@
+
+
+.left {
+	    display: inline-block;
+    position: absolute;
+    top: 121px;
+    left: 46px;
+    height: 246px;
+    width: 391px;
+    padding: 20px;
+    background-image: linear-gradient(#151558, aqua);
+    padding: 10px;
+    margin-left: -30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.right {
+        height: 24px;
+    width: 583px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 581px;
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+body {
+	background-image:url('https://electricvehicles.in/wp-content/uploads/2018/08/wallpaper-Hyundai-electric-car.jpg');
+	color:white;
+	text-align:center;
+}
+
+#logo {
+	    position: absolute;
+    top: 9px;
+    left: 2px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;  
+}
+
+#logo img{
+	height:100px;
+	width:100px;
+}
+
+#home {
+	background-color: white;
+    display: inline-block;
+    width: 61px;
+    height: 49px;
+    position: absolute;
+    top: 31px;
+    left: 94px;
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid white;
+}
+
+.menubar {
+	display: inline-block;
+    height: 33px;
+    width: 1121px;
+    padding: 9px;
+    margin-left: -265px;
+    margin-top: 24px;
+}
+
+.menu input {
+    background-image: linear-gradient(to bottom right,skyblue,aqua);
+    height: 55px;
+    margin: -11px -8px 0px 4px;
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    border: 1px solid black;
+    padding: 2px 58px 0px 40px;
+}
+
+.menu input:hover{
+	background-image:linear-gradient(to bottom right,darkblue,black);
+	color:white;
+}
+
+#x{
+	border-radius:0px 50px 50px 0px;
+}
+h1 {
+	    margin-left: 479px;
+    margin-top: 64px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.l input {
+	
+	background-image: linear-gradient(#ffccff,#ccccff);
+	width:250px;
+	height: 25px;
+	margin: 10px;
+	border-radius: 5px;
+	border-width: thin;
+	border-color: black;
+	font-size: 18px;
+	font-family: 'Georgia', serif;
+}
+
+form {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Georgia', serif;
+	font-size: 100%;
+}
+
+#btn {
+	cursor: pointer;
+	font-size: 24px;
+	background: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+.left input::placeholder{
+	color:black;
+}

@@ -1,0 +1,192 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image:url('https://electricvehicles.in/wp-content/uploads/2018/08/wallpaper-Hyundai-electric-car.jpg');
+	height:552px;
+	color:white;
+	text-align:center;
+}
+
+#logo {
+	    position: absolute;
+    top: 9px;
+    left: 2px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;  
+}
+
+#logo img{
+	height:100px;
+	width:100px;
+}
+
+#home {
+	background-color: white;
+    display: inline-block;
+    width: 61px;
+    height: 49px;
+    position: absolute;
+    top: 31px;
+    left: 94px;
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-bottom: 2px solid white;
+}
+
+.menubar {
+	display: inline-block;
+    height: 33px;
+    width: 1121px;
+    padding: 9px;
+    margin-left: -265px;
+    margin-top: 24px;
+}
+
+.menu input {
+    background-image: linear-gradient(to bottom right,skyblue,aqua);
+    height: 55px;
+    margin: -11px -8px 0px 4px;
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    border: 1px solid black;
+    padding: 2px 58px 0px 40px;
+}
+
+.menu input:hover{
+	background-image:linear-gradient(to bottom right,darkblue,black);
+	color:white;
+}
+
+#x{
+	border-radius:0px 50px 50px 0px;
+}
+.mySlides {display: none;}
+img {
+vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+       display: inline-block;
+    position: absolute;
+    top: 237px;
+    left: 178px;
+}
+
+/* Caption text */
+.text {
+      color: darkblue;
+    font-size: 15px;
+    padding: 8px 0px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: darkblue;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	position: relative;
+    left: -208px;
+    height: 15px;
+    width: 15px;
+    margin-top: 422px;
+    margin-left: 2px;
+    background-color: #33cefe;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #1200ff;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.rightside{
+	    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 11px;
+}
+
+.rightside::before {
+	    content: "";
+    background-image: linear-gradient(#151558, aqua);
+    display: inline-block;
+    position: absolute;
+    width: 249px;
+    height: 627px;
+    top: -71px;
+    right: -29px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.a1{
+	border-radius:10%;
+	margin:10px;
+}
+
+h1{
+	color:blue;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 147px;
+    left: 160px;
+    animation-name: blink;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0%{
+        color: blue;
+    }
+    20%{
+        color: red;
+    }
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: aqua;
+    }
+    80%{
+        color: white;
+    }
+    100%{
+        color: blue;
+    }
+}
+}
+
+
+
+
