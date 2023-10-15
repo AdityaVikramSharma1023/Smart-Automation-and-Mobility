@@ -1,4 +1,9 @@
 # Smart-Automation-and-Mobility
+SAM is a new and revolutionary way of thinking about how we get around — one that is cleaner, safer, and more efficient. 
+This can take on many different forms, including ride-sharing, car-sharing, public transportation, walking, biking, and more.
+We have created an online platform that will provide a variety of efficient and green transportation services to all our users.
+
+Our Website/Android/IOS application will provide various transportation services like ridesharing, booking electric buses, metros, cars, and 2-wheelers, including a vehicle renting option and much more. It will be a single place for managing all the related payments and will completely change the future of transportation.
 
 Screenshots:
 <img width="946" alt="welcome" src="https://github.com/AdityaVikramSharma1023/Smart-Automation-and-Mobility/assets/142868221/455a4ac4-2a82-44f3-8a3a-462c5aeb7385">
